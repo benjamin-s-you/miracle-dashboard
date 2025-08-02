@@ -156,7 +156,7 @@ This dashboard uses clinical trials data from:
 - **ClinicalTrials.gov** (US trials)
 - **EudraCT** (EU trials)
 
-CSV files are located in `/public/data`. Data is normalized for consistent visualization across both sources.
+CSV files are located in `/public/data`. If you want to play around and add more data, make sure to add it to the existing CSVs. Data is normalized for consistent visualization across both sources.
 
 ## Assumptions
 
@@ -222,4 +222,4 @@ Below is a checklist of all user stories from the assignment. âœ… = Completed, â
 - Implement unit testing and E2E testing
 - Better linting/ prettier rules (have imports and parameters in alphabetical order)
 - Standardizing and sanitizing data entries in **dataUtils.ts** can be better.
-- Don't have the application process the csvs on load. Could implement a utils method to create a **processed** folder with clean data sets.
+- Don't have the application process the CSVs on load. Could implement a utils method to create a **processed** folder with clean data sets.
